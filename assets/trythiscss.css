@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.bannerNav {
+  position: fixed;
+}
+
+.bannerNav #NavPanelToggle {
+  position: relative;
+}
+
+.container {
+  width: 100%;
+  height: 84vh;
+  position: relative;
+}
+
+.container p {
+  color: #1a0303;
+  padding: 50px;
+}
+
+.container video {
+  width: 100%;
+  height: 83%;
+  display: block;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: fixed;
+}
+
+.container .box {
+  position: absolute;
+  top: -100px;
+  left: 0;
+  width: 100%;
+  height: 150px;
+  background: #000800;
+  -webkit-transform: translateY(300%);
+          transform: translateY(300%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .box h2 {
+  font-size: 50px;
+  color: white;
+  font-weight: 100;
+  letter-spacing: 3px;
+  text-align: center;
+}
+
+.content {
+  width: 100%;
+  height: 350px;
+  background: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  position: relative;
+}
+
+.content h2 {
+  font-size: 3em;
+  letter-spacing: 3px;
+  font-weight: 800;
+  padding: 30px;
+}
+
+.content p {
+  margin-left: 80px;
+  margin-right: 80px;
+  font-size: 1.5em;
+  letter-spacing: 2px;
+  line-height: 1.5;
+}
+
+.bg-image1 {
+  width: auto;
+  height: 250%;
+}
+
+.bg-image2 {
+  background: url("../images/skybann.jpg") no-repeat center;
+  background-size: cover;
+  width: auto;
+  height: 65vh;
+}
+
+.bg-image3 {
+  background-size: cover;
+  width: auto;
+  height: 65vh;
+}
+/*# sourceMappingURL=trythiscss.css.map */
